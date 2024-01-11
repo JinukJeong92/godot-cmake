@@ -7,12 +7,11 @@
       "generator": "Ninja",
       "cmakeExecutable": "cmake",
       "binaryDir": "${sourceDir}/build/${presetName}",
-      "toolchainFile": "${sourceDir}/godot/cmake/toolchain.cmake",
       "environment": {
         "PATH": "$env{LLVM_ROOT}/bin${pathListSep}$penv{PATH}"
       },
       "cacheVariables": {
-        
+        "GODOT_VERBOSE": true
       }
     },
     {
