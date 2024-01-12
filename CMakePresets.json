@@ -9,9 +9,6 @@
       "binaryDir": "${sourceDir}/build/${presetName}",
       "environment": {
         "PATH": "$env{LLVM_ROOT}/bin${pathListSep}$penv{PATH}"
-      },
-      "cacheVariables": {
-        "GODOT_VERBOSE": true
       }
     },
     {
