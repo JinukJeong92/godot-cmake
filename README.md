@@ -6,3 +6,5 @@
 - [ ] [Compiling for Android](docs/android.md)
 - [ ] [Compiling for iOS](docs/ios.md)
 - [ ] [Compiling for the Web](docs/web.md)
+
+cmake -DCMAKE_WARN_DEPRECATED=OFF ..
